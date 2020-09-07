@@ -22,7 +22,7 @@ This Repository consists of the following files and directories:
  
 3. __<ins>data/:__
 
-    This is the folder into which the two constituent datasets must be downloaded (See previous section.). It is also where the merged dataset created when the main notebooke is run will be saved. 
+    This is the folder into which the two constituent datasets must be downloaded. It is also where the merged dataset created when the main notebooke is run will be saved. MUST BE CREATED AND POPULATED PRIOR TO RUNNING NOTEBOOK. See 'Data Sources' section below. 
  
 4. __<ins>images/:__
  
@@ -38,7 +38,7 @@ This Repository consists of the following files and directories:
 
 7. __<ins>glove/__
 
-    Stores the library of pre-trained GloVe vectors downloaded by the notebook. See Data Sources section below. 
+    Stores the library of pre-trained GloVe vectors downloaded by the notebook. MUST BE CREATED PRIOR TO RUNNING MAIN NOTEBOOK. See Data Sources section below. 
 
 8. __<ins>.gitignore/__
 
