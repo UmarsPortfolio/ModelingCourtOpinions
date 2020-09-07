@@ -20,29 +20,22 @@ This Repository consists of the following files and directories:
     Contains some custom classes used in the main notebook.   
     Datashop is the name of a pypi package I maintain where I keep handy functions and classes. I have kept these particular classes within this repository to make it easier to inspect them. 
  
-3. __<ins>data/:__
+3. __<ins>Presentation.pdf:__
 
-    This is the folder into which the two constituent datasets must be downloaded. It is also where the merged dataset created when the main notebooke is run will be saved. MUST BE CREATED AND POPULATED PRIOR TO RUNNING NOTEBOOK. See 'Data Sources' section below. 
+    A PDF of the slideshow used during the video presentation of this project. A link to the video can be found [here.](https://youtu.be/5wYKz0c8Lms)
  
 4. __<ins>images/:__
  
     This stores the images of charts from the notebook. 
  
-5. __<ins>Presentation.pdf:__
+5. __<ins>data/:__
 
-    A PDF of the slideshow used during the video presentation of this project. A link to the video can be found here:
+    This is the folder into which the two constituent datasets must be downloaded. It is also where the merged dataset created when the main notebooke is run will be saved. MUST BE CREATED AND POPULATED PRIOR TO RUNNING NOTEBOOK. See 'Data Sources' section below. 
 
-6. __<ins>LICENSE__
-
-    License. 
-
-7. __<ins>glove/__
+6. __<ins>glove/__
 
     Stores the library of pre-trained GloVe vectors downloaded by the notebook. MUST BE CREATED PRIOR TO RUNNING MAIN NOTEBOOK. See Data Sources section below. 
 
-8. __<ins>.gitignore/__
-
-    The gitignore file (duh lol).
 
  
 # __Data Sources__
