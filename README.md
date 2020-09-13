@@ -3,6 +3,19 @@
 The purpose of this project is the develop a model that can accuratly classify supreme court
 opinions into areas of law. The model will be able to predict one of about a dozen classes for every full opinion text passed into it. 
 
+There are two main sources of law in the American legal system. There are the constitutions and laws passed by Federal and State legislatures, and there are the rulings passed by various courts. The job of the courts is to interpret the law, describe the situations where they apply and account for situations that the statutes themselves do not account for. 
+ 
+Given that in addition to the Supreme Court there are 13 Federal Appellate courts, 50 State Supreme Courts and innumrable smaller courts that issue opinions of precedntial weight, the body of legal authority utilized in the practice of law is absolutely massive. 
+ 
+Keeping this information sorted for easy retreival is no easy task. It is in fact arguably one of the oldest database design challenges in modern times. Proprietary indexing systems exist to facilicate the retreival of precedents relevant to a particular problem, most notably the West Key numbering system.https://en.m.wikipedia.org/wiki/West_American_Digest_System, which has been around for a hundered years. 
+ 
+As you can imagine, categorizing the massive body of newly issued court opinions is no easy task. You need lawyers or at least those with sufficient training to understand the discussions in a given opinion in order to properly assign to them the relevant category labels. And since there are hundered of courts each churning out hundereds of opinions every year, you can imagine what an enormous ongoing enterprise thid is. It is the reason why services like Westlaw and Lexis are so expensive and comprise a large portion of a law firms budget, especially smaller firms. 
+ 
+This is where NLP comes in. If we can develop machine learning models that can accurately label newly published legal opinions, we can save thousands of hours of expensive labor hours that we would otherwise need if we continued to rely on teams of attorneys to perform this labeling. This can in turn lead to enormous savings in the cost of legal services which will help clients save money and increase peoples access to legal representation and promote greater justice in society.
+ 
+In this project we seek to build a model that can accurately classify a given Supreme Court opinion into the area of law it pertains to. We will try different approaches and see what yields the best results.  Since it is difficult to acquire the full texts of court opinions in aggregate, we are going to focus on just the Supreme Court for now. If we are able to model Supreme Court opinions with sufficient reliability, we 
+will have an indication of the feasibility of using NLP classification techniques to classify the opinions of other courts as well.
+
 ### __<ins> NOTE: The data used in this project is not present in the repo and must be downloaded seperately.__
 
 - Please see "Data Sources" section below
