@@ -118,7 +118,7 @@ I tried different combinations of
 3. Stop words, 
     None, standard english, top 70 most commin in corpus, and english + top 70
 
-![modelranks](images/RankTable.png)
+![modelranks](images/ModelReport.png)
 
 The best performance was achieved by vectorizing the corpus using TFIDF and removing standard english stopwords, and fitting a Linear SVC to this data. 
 
